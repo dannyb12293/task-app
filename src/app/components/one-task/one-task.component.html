@@ -1,0 +1,24 @@
+<hr>
+    <h1>Selected Task</h1>
+<hr>
+    
+    <h3>{{currentTask.title}}</h3>
+<br>
+<div>
+    <p> Body: {{currentTask.body}}
+<br>
+        Duration: {{currentTask.duration}}
+<br>
+        Items Required: {{currentTask.items}}
+
+
+    </p> 
+
+<a routerLink ="/updateTask/{{currentTask.id}}"> 
+    <button>
+        Edit Task
+    </button>
+</a> 
+    <button (click) ="deleteTask(taskID)">DELETE TASK</button>
+    </div>
+

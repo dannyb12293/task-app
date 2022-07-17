@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    {
+      "title": "Car Wash",
+      "body": "Cancel Membership",
+      "duration": "10 Mins",
+      "items": "phone",
+      "id": 2
+    },
+    {
+      "title": "Gym",
+      "body": "Arm workout",
+      "duration": "60 mins",
+      "items": "headphones",
+      "id": 4
+    },
+    {
+      "title": "Dinner Date",
+      "body": "4Pm dinner reservation at Sacred Pepper",
+      "duration": "60 mins",
+      "items": "money",
+      "id": 5
+    },
+    {
+      "title": "Do Laundry",
+      "body": "Wash and fold clothes",
+      "duration": "150 Mins",
+      "items": "detergent and basket",
+      "id": 6
+    },
+    {
+      "title": "Fishing",
+      "body": "finishing on the Causeway",
+      "duration": "200 Mins",
+      "items": "fishing gear",
+      "id": 7
+    }
+  ]
+}

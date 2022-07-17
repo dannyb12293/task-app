@@ -1,0 +1,13 @@
+<hr>
+<h3>List of Tasks</h3>
+<hr>
+
+<div *ngFor = "let task of listOfTasks">
+   <p> {{task.id}}. 
+       <a routerLink ="/allTasks/{{task.id}}">
+ {{task.title}}
+       </a>
+</p>
+<button type="button" class="btn btn-primary" ="deleteTask(task.id)">DELETE TASK</button>
+   
+</div>

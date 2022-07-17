@@ -1,0 +1,24 @@
+<hr>
+<h1> Update Task </h1>  
+<hr>
+<h3>{{currentTask.title}}</h3>
+<br>
+<form (ngSubmit) = "updateTask()">
+    <label>Title</label>
+    <br>
+    <input required type="text" name="title" [(ngModel)]="updatedTask.title">
+    <br>
+    <label>Body</label>
+    <br>
+    <input required type="text" name="body" [(ngModel)]="updatedTask.body">
+    <br>
+    <label>Duration</label>
+    <br>
+    <input required type="text" name="duration" [(ngModel)]="updatedTask.duration">
+    <br>
+    <label>Items Required</label>
+    <br>
+    <input required type="text" name="items" [(ngModel)]="updatedTask.items">
+    <br>
+    <button type="submit">Update</button>
+</form>
